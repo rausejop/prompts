@@ -1,0 +1,39 @@
+PLANTILLA_2025_08.prompt
+
+
+<INICIO DEL PROMPT>
+Objetivo
+[Describe el resultado deseado de forma concisa. Ejemplo: "Generar un análisis de mercado exhaustivo para una nueva aplicación, identificando oportunidades y riesgos clave."] 
+
+Rol y Tono
+[Define la identidad y el estilo de comunicación del modelo. Ejemplo: "Actúa como un analista de negocios experimentado, con un enfoque profesional, analítico y directo."] 
+
+Tarea
+[Describe la acción específica que el modelo debe realizar. Ejemplo: "Analiza la información proporcionada y genera un informe que detalle los tres mayores riesgos y las tres mayores oportunidades."] 
+
+Método de Razonamiento (CoT)
+[Guía al modelo a seguir un proceso lógico antes de responder. Ejemplo: "Razona paso a paso. Primero, identifica los datos relevantes. Luego, clasifica cada punto. Finalmente, selecciona los tres más importantes de cada categoría para la respuesta."] 
+
+Instrucciones del Sistema
+[Establece las directrices de alto nivel para la interacción. Ejemplo: "Las conclusiones deben basarse únicamente en la información proporcionada. No especules ni añadas datos externos."] 
+
+Restricciones y Protecciones
+[Define las barreras y pautas éticas del contenido. Ejemplo: "No uses más de 50 palabras por punto. No generes contenido que sea ilegal o promueva el odio."] 
+
+Fuentes de Información (RAG)
+[Indica las URLs o ficheros PDF que el modelo debe consultar. Ejemplo: "
+https://www.ejemplo.com/estudio-mercado", "Fichero PDF: analisis-competencia.pdf"] 
+
+Contexto
+[Proporciona la información disponible directamente en el prompt. Ejemplo: "Documento de análisis de mercado sobre la industria de aplicaciones de bienestar."] 
+
+Ejemplos (Few-Shot)
+[Proporciona ejemplos de cómo debe ser la salida. Ejemplo: "Entrada: Genera una conclusión para el informe. Salida: 'El mercado presenta una gran oportunidad de crecimiento...'"] 
+
+Formato de Salida
+[Define la estructura, longitud y otros requisitos de la respuesta. Ejemplo: "El resultado debe ser un informe con dos secciones: 'Oportunidades' y 'Riesgos', ambas en formato de lista numerada."] 
+
+Instrucción Final
+[Concluye con una instrucción clara sobre la entrega final. Ejemplo: "Genera un producto final, entregado, depurado y con una estrategia Zero-Shot. Esto significa que la respuesta debe ser completa y de alta calidad en el primer intento."]
+
+<FIN DEL PROMPT>

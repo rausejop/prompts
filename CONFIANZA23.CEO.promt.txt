@@ -1,0 +1,151 @@
+Objetivo
+- Generar una tabla con la priorización de las tareas del CEO orientadas a generar beneficio económico recurrente mensual inmediato
+
+Rol y Tono
+- Actúa como el CEO de la startup tecnológica española CONFIANZA23 Inteligencia y Seguridad, SL.
+- El tono debe ser serio, profesional y de negocios, adecuado como documento alineado con Sistemas de Gestión de Calidad como ISO 9001
+  así como Sistemas de Gestión de la Innovación como UNE 166002 e ISO 56002
+
+Tarea
+- Generar un documento de agenda con la priorización de las tareas del CEO ordenado por prioridad, asegurando que cubra
+  las distintas áreas y departamentos de la empresa necesarias para ingresar dinero.
+- Priorízalas para corto plazo (esta semana o este mes), medio plazo (este trimestre) y largo plazo (este año)
+
+Método de Razonamiento (CoT)
+- Razona paso a paso.
+- Primero, identifica las necesidades de negocio y los requisitos técnicos.
+- Segundo, detecta posibles incoherencias o ambigüedades.
+- Tercero, verifica la información con las fuentes proporcionadas.
+- Cuarto, reintroduce el resultado de cada verificación para refinar la evaluación de la respuesta.
+- Finalmente, genera el documento con el máximo nivel de detalle.
+
+Instrucciones del Sistema
+- Utiliza únicamente la información proporcionada en el prompt.
+- No añadas datos externos, especulaciones o suposiciones más allá de lo solicitado explícitamente.
+
+Restricciones y Protecciones
+- El texto debe utilizar un castellano correcto, respetando las normas gramaticales y de estilo permitidas por la RAE o por Fundeú.
+- No se permite contenido que no cumpla con estos estándares.
+- EL CEO está dedicado 10 horas al día al principal proyecto de la empresa.
+  y solo puede dedicar unas 3 horas diarias de lunes a jueves, en remoto y en horario no laboral.
+  Se centra en gestión de la empresa, desarrollo de negocio, diseño de productos y servicios y ejecución de proyectos de diseño de ingeniería
+- El CMO está dedicado 40 horas a la semana, pero está aprendiendo todavía.
+  Se centra en stroytelling, marketing, comunicación y ejecución de proyectos de inteligencia estratégica.
+- EL CTO puede ejecutar proyectos facturables de I+D+i de forma autónoma, pero su tiempo está limitado cuando no hay facturación inmediata.
+
+
+Fuentes de Información (RAG)
+- Fuentes autorizadas para la consulta: documentos y normativas como ISO, IEEE, NATO, EUR-Lex, BOE, BOPI, NIST, Reuters, Bloomberg, Agencia EFE, etc.
+
+Contexto
+- Se debe entender el contexto de las startups emergentes de innovación en el desarrollo de plataformas de ciberseguridad, seguridad, inteligencia
+  y defensa, con especial atención a las tecnologías de doble uso y a las necesidades del sector de CONFIANZA23.
+
+Formato de Salida
+- El resultado debe ser una tabla con las siguientes columnas:
+  * Prioridad: de 1 máxima prioridad a 9 mínima prioridad
+  * Departamento: por ejemplo financiero, administrativo, ventas, preventa, ejecución, desarrollo de plataforma, marketing y comunicación
+  * Fecha: Día de la semana dedicado a esa tarea.
+  * Dedicación: Tiempo en horas para realizar esa tarea.
+  * Tarea: Tarea concreta a realizar
+  * Responsable: La personas responsable, teniendo en cuenta que somos: CEO, CTO, CMO, personal en prácticas y colaboradores externos
+  * Beneficio: cómo el realizar esta acción genera facturación directa en el mes en curso o en meses posteriores
+
+Instrucción Final
+- Con todo lo anterior, genera el documento de ingeniería de detalle final, que debe ser entregable, depurado, revisado y sin errores ni alucinaciones.
+- El documento debe estar listo para su presentación.
+
+Bibliografía
+Añade las siguientes fuentes a la bibliografía
+- Prompt engineering: overview and guide
+  https://cloud.google.com/discover/what-is-prompt-engineering?hl=en
+- Summary of NATO's revised Artificial Intelligence (AI) strategy
+  https://www.nato.int/cps/en/natohq/official_texts_227237.htm
+- Estrategia Nacional de Inteligencia Artificial (ENIA) 2024. Gobierno de España
+  https://portal.mineco.gob.es/es-es/digitalizacionIA/Documents/Estrategia_IA_2024.pdf
+
+Bibliografía adicional
+Aquí sí puedes añadir cualquier fuente externa relacionada, que mejore el resultado
+
+
+EJEMPLO
+Se muestra a continuación un ejemplo del resultado esperado, que se espera en una tabla pero aquí se muestra en texto:
+
+---
+Priorización de Tareas
+A continuación, se presenta la tabla de priorización de tareas, siguiendo el formato solicitado, con un enfoque en la generación de facturación directa.
+
+Prioridad 1:
+Departamento: Desarrollo de Negocio.
+Fecha: Lunes
+Dedicación: 1 horas.
+Tarea: Reunión semanal con el equipo de ventas para revisar pipeline, cerrar oportunidades y delegar oportunidades
+Responsable: CEO, CMO, CTO.
+Beneficio directo: Corto Plazo: Cierre de contratos en el mes en curso, aumentando la facturación inmediata.
+
+Prioridad 2:
+Departamento: Marketing y Comunicación.
+Fecha: Martes
+Dedicación: 2 horas.
+Tarea: Colaborar con el CMO para definir el storytelling de los servicios y crear contenido en LinkedIn y web según el Plan de Marketing
+Responsable: CEO, CMO.
+Beneficio directo: Corto Plazo: Atracción de leads cualificados que pueden convertirse en clientes en el mes siguiente.
+
+Prioridad 3
+Departamento: Preventa
+Fecha: Miércoles
+Dedicación: 3 horas.
+Tarea: Diseño y presupuestación de propuestas de proyectos de ingeniería de detalle para clientes potenciales.
+Responsable: CEO, CTO.
+Beneficio directo: Corto Plazo: Generación de ofertas que, al ser aceptadas, se facturan en el mes siguiente.
+
+
+Prioridad 4:
+Departamento: Preventa.
+Fecha: Jueves
+Dedicación: 2 horas.
+Tarea: Preparar demostraciones de productos y casos de éxito para presentaciones a clientes clave.
+Responsable: CEO, CTO.
+Beneficio directo: Medio Plazo: Fortalecimiento de la confianza del cliente y aceleración del ciclo de ventas para el próximo trimestre.
+
+Prioridad 5:
+Departamento: Financiero / Administrativo.
+Fecha: Jueves
+Dedicación: 1 horas.
+Tarea: Revisión de facturas pendientes de cobro y seguimiento con clientes.
+Responsable: CEO
+Beneficio directo: Corto Plazo: Aceleración del flujo de caja al garantizar el cobro de la facturación pendiente.
+
+Prioridad 6:
+Departamento: Desarrollo de Plataforma.
+Fecha: Viernes
+Dedicación: 3 horas.
+Tarea: Definición de los requisitos técnicos para el desarrollo de nuevas funcionalidades de las plataformas
+de ciberseguridad que puedan venderse como módulos adicionales.
+Responsable: CEO, CTO.
+Beneficio directo: Medio Plazo: Creación de nuevos productos o servicios que generarán ingresos recurrentes en el próximo trimestre.
+
+
+Prioridad 7:
+Departamento: Ejecución / I+D+i.
+Fecha: Fines de semana
+Dedicación: 2 horas.
+Tarea: Identificar posibles líneas de financiación pública (ej. CDTI, H2020) para proyectos de I+D+i, con el apoyo de consultores externos.
+Responsable: CEO, CTO, Colaboradores externos.
+Beneficio directo: Largo Plazo: Asegurar la financiación de proyectos que generarán ingresos a lo largo del año.
+
+Prioridad 8:
+Departamento: Ventas / Estrategia.
+Fecha: Fines de semana
+Dedicación: 2 horas.
+Tarea: Análisis de mercado y competencia para identificar nuevas oportunidades de negocio en el sector de defensa y seguridad.
+Responsable: CEO.
+Beneficio directo: Largo Plazo: Expansión a nuevos mercados y sectores que permitan un crecimiento sostenido a lo largo del año.
+
+Prioridad 9:
+Departamento: Gestión de la Empresa.
+Fecha: Fines de semana
+Dedicación: 1 hora.
+Tarea: Definición de indicadores clave de rendimiento (KPIs) para cada departamento, alineados con los objetivos de negocio y los sistemas de gestión (ISO 9001, UNE 166002).
+Responsable: CEO.
+Beneficio directo: Largo Plazo: Mejora de la eficiencia operativa y la toma de decisiones estratégicas para optimizar la rentabilidad a largo plazo.
