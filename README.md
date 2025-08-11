@@ -1,2 +1,2 @@
-# prompts
+# Prompts
 Prompt Engineering
